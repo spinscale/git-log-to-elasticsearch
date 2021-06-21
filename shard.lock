@@ -1,0 +1,10 @@
+version: 2.0
+shards:
+  git:
+    git: https://github.com/smacker/libgit2.cr.git
+    version: 0.1.0+git.commit.1d42ffdcf6f885a49ece5b2baac00a5146d0a556
+
+  progress_bar.cr:
+    git: https://github.com/tpei/progress_bar.cr.git
+    version: 0.3.1+git.commit.db4c4718ac2d7a9ab2d159d830bff498e98109e5
+

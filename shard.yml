@@ -1,0 +1,19 @@
+name: git-log-to-elasticsearch
+version: 0.1.0
+
+authors:
+  - Alexander Reelsen <alexander@reelsen.net>
+
+dependencies:
+  git:
+    github: smacker/libgit2.cr
+    branch: master
+  progress_bar.cr:
+    github: tpei/progress_bar.cr
+    branch: master
+
+targets:
+  git-log-to-elasticsearch:
+    main: src/git-log-to-elasticsearch.cr
+
+crystal: 1.0.0
