@@ -28,7 +28,7 @@ in one of my Elastic Cloud clusters
 
 ```
 ./bin/git-log-to-elasticsearch -b '^origin/master$' -n 'elastic/elasticsearch' \
-  --host https://vega-demo.es.europe-west3.gcp.cloud.es.io:9243 \
+  --host https://my-cloud-cluster.es.europe-west3.gcp.cloud.es.io:9243 \
   -u elastic:$PASS ~/devel/elasticsearch/
 ```
 
