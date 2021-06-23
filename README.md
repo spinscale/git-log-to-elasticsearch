@@ -7,7 +7,7 @@ with Crystal 1.0.0)
 
 
 ```bash
-shards update
+shards update --ignore-crystal-version
 shards build git-log-to-elasticsearch --production
 # this only imports the main branch
 ./bin/git-log-to-elasticsearch -v -b '^origin/main$' \
